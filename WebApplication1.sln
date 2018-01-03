@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{999E9738-F01C-4CB9-B47C-0DF63959FD1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareerCloud.ADODataAccessLayer", "CareerCloud.ADODataAccessLayer\CareerCloud.ADODataAccessLayer.csproj", "{F68F7B19-8B5A-4917-8B0A-B06A5BC82EF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareerCloud.BusinessLogicLayer", "CareerCloud.BusinessLogicLayer\CareerCloud.BusinessLogicLayer.csproj", "{3250E6FA-F88D-4831-9966-901DA8F74F4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareerCloud.DataAccessLayer", "CareerCloud.DataAccessLayer\CareerCloud.DataAccessLayer.csproj", "{00E5FCB6-5FB7-43B9-A8C4-9215287047ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareerCloud.Pocos", "CareerCloud.Pocos\CareerCloud.Pocos.csproj", "{EBE74A29-57B7-439D-9F29-180AD6F362C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{999E9738-F01C-4CB9-B47C-0DF63959FD1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{999E9738-F01C-4CB9-B47C-0DF63959FD1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{999E9738-F01C-4CB9-B47C-0DF63959FD1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{999E9738-F01C-4CB9-B47C-0DF63959FD1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F68F7B19-8B5A-4917-8B0A-B06A5BC82EF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F68F7B19-8B5A-4917-8B0A-B06A5BC82EF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F68F7B19-8B5A-4917-8B0A-B06A5BC82EF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F68F7B19-8B5A-4917-8B0A-B06A5BC82EF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3250E6FA-F88D-4831-9966-901DA8F74F4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3250E6FA-F88D-4831-9966-901DA8F74F4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3250E6FA-F88D-4831-9966-901DA8F74F4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3250E6FA-F88D-4831-9966-901DA8F74F4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00E5FCB6-5FB7-43B9-A8C4-9215287047ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00E5FCB6-5FB7-43B9-A8C4-9215287047ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00E5FCB6-5FB7-43B9-A8C4-9215287047ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00E5FCB6-5FB7-43B9-A8C4-9215287047ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBE74A29-57B7-439D-9F29-180AD6F362C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBE74A29-57B7-439D-9F29-180AD6F362C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBE74A29-57B7-439D-9F29-180AD6F362C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBE74A29-57B7-439D-9F29-180AD6F362C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

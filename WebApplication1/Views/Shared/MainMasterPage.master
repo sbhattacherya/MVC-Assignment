@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MainMasterPage.master.cs" Inherits="MainMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="wrapper">
+		   <div id="header">
+		   <div id="top">
+                <div id="logo">		   	 
+ 		         <h1>Job Website</h1>
+            			<p>services</p>
+			    </div>
+			    <div id="menu">
+					<ul>
+						<li><a href="Home.aspx">Home</a></li>
+						<li><a href="AboutUs.aspx">About Us</a></li>
+						<li><a href="ContactUs.aspx">Contact Us</a></li>
+						<li><a href="Home1.aspx">Login</a></li>
+</ul>
+		        </div>			
+		    </div>
+			</div>
+			<div>	    
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">   
+            <p>
+                <br />
+            </p>
+            <p>
+            </p>
+        </asp:ContentPlaceHolder>
+			</div>  
+			 
+			 <div id="footer">
+		         <br />
+		Copyright	&copy;  <a href="Home1.aspx">jobwebsite.com</a>.
+		    </div>				
+	</div>	
+    </form>
+</body>
+</html>
